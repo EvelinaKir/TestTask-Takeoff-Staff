@@ -1,22 +1,15 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { instance } from "../axios";
 
-const instance = axios.create({
-    headers: {
-        "Content-Type": "application/json",
 
-      },
-    });
 
-export const userAuth = (login: string, password: string) =>  createAsyncThunk(
+export const userAuth = createAsyncThunk(
     'user/userAuth',
     async () => {
-        const res = await instance.post('',{
-            body: JSON.stringify({
-                login: login,
-                password: password
-            })
+        const res = await instance.get('http://localhost:4000/user',{
         })
+        const result = res.data ? res.data : res.status
+        return result
     }
-)
 
+)

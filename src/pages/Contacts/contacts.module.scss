@@ -1,0 +1,47 @@
+.container{
+    max-width: 1200px;
+    margin: 3vh auto;
+    display: flex;
+    flex-direction: column;
+
+    .newContact{
+        margin: 10vh auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .allContacts{
+        margin: 10vh auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .oneContact{
+        form{
+            display: flex;
+            margin-bottom: 3vh;
+            input{
+                max-height: 1vh;
+                margin-right: 3vw;
+            }
+        }
+        button{
+            margin-left: 2vw;
+            margin-right: 2vw;
+        }
+
+        img{
+            max-width: 5vw;
+            max-height: 5vh;
+        }
+    }
+
+    .searchField{
+        margin: 5vh auto;
+        display: flex;
+        flex-direction: column;
+    }
+}

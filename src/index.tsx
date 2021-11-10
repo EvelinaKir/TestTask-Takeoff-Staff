@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 import { Provider } from "react-redux";
 import { setupStore } from "./services/store/store";
-
 const store = setupStore()
 
 ReactDOM.render(

@@ -1,8 +1,65 @@
 {
-    "users": [
-        {
-            "name": "ImHere",
-            "password": "toHireYou"
-        }
-    ]
+  "user": {
+    "id": "1",
+    "login": "iWill",
+    "password": "haveOrder"
+  },
+  "contacts": [
+    {
+      "contact": {
+        "name": "Иван",
+        "phone": "+7999999999",
+        "email": "vasilievich@gmail.ru"
+      },
+      "id": 1
+    },
+    {
+      "contact": {
+        "name": "Артур",
+        "phone": "+7999999999",
+        "email": "pirojkov@gmail.ru"
+      },
+      "id": 3
+    },
+    {
+      "contact": {
+        "name": "Пентагон",
+        "phone": "+7999349857",
+        "email": "pravdaPentagon@gmail.ru"
+      },
+      "id": 4
+    },
+    {
+      "contact": {
+        "name": "Малиновский",
+        "phone": "+7999349857",
+        "email": "neVor@gmail.ru"
+      },
+      "id": 5
+    },
+    {
+      "contact": {
+        "name": "Трубку не брать",
+        "phone": "+799934984567",
+        "email": "bivshaya@gmail.ru"
+      },
+      "id": 6
+    },
+    {
+      "contact": {
+        "name": "ТоварищПрапорщик",
+        "phone": "+7898989895",
+        "email": "praporshik@gmail.com"
+      },
+      "id": 8
+    },
+    {
+      "contact": {
+        "name": "МладшийЛейтенант",
+        "phone": "+7898989895",
+        "email": "leitenant@gmail.com"
+      },
+      "id": 9
+    }
+  ]
 }
